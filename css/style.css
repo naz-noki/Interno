@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white; }
+  body .wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 1440px;
+    min-height: 3325px; }
+    body .wrapper .header {
+      max-width: 1200px;
+      max-height: 62px;
+      align-items: center;
+      display: flex;
+      margin-left: 120px;
+      background-color: white;
+      margin-bottom: 18px;
+      margin-top: 26px;
+      padding-top: 12px;
+      padding-bottom: 20px; }
+      body .wrapper .header .logo {
+        display: flex;
+        align-items: center; }
+        body .wrapper .header .logo .logoImg {
+          width: 34px;
+          height: 34px; }
+        body .wrapper .header .logo .logoTitle {
+          width: 130.31px;
+          height: 27px;
+          padding-left: 10.88px; }
+      body .wrapper .header .menu {
+        margin-left: 506.81px; }
+      body .wrapper .header .menu__bar {
+        display: flex; }
+        body .wrapper .header .menu__bar .bar__item {
+          font-family: 'Jost', sans-serif;
+          list-style-type: none;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px; }
+          body .wrapper .header .menu__bar .bar__item .bar__b {
+            text-decoration: none;
+            color: #292F36;
+            margin-left: 40px; }
+          body .wrapper .header .menu__bar .bar__item .bar__a {
+            text-decoration: none;
+            color: #CDA274; }
+    body .wrapper .firstBlock {
+      background-image: url(../image/jkl.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 1440px;
+      height: 831px; }
+      body .wrapper .firstBlock .fb__wrapper {
+        width: 600px;
+        height: 386px;
+        padding-top: 195px;
+        padding-left: 120px;
+        padding-bottom: 250px;
+        padding-right: 720px; }
+        body .wrapper .firstBlock .fb__wrapper .fb__h1 {
+          font-family: 'DM Serif Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 80px;
+          line-height: 96px;
+          letter-spacing: 0.22px;
+          color: #292F36; }
+        body .wrapper .firstBlock .fb__wrapper .p_pO {
+          padding-top: 19px; }
+        body .wrapper .firstBlock .fb__wrapper .p_pO, body .wrapper .firstBlock .fb__wrapper .p_pT {
+          font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 33px;
+          letter-spacing: 0.22px;
+          color: #4D5053; }
+        body .wrapper .firstBlock .fb__wrapper .fb__button {
+          cursor: pointer;
+          background-image: url(../image/IMAGE.svg);
+          background-repeat: no-repeat;
+          margin-top: 35px;
+          width: 175px;
+          height: 71px;
+          padding-top: 22px;
+          padding-left: 34px;
+          font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          letter-spacing: 0.72px;
+          color: #FFFFFF; }
+    body .wrapper .secondBlock {
+      margin-top: 100px;
+      margin-left: 120px;
+      width: 1200px;
+      height: 395px;
+      display: flex;
+      align-items: center; }
+      body .wrapper .secondBlock .sb__wrapper {
+        width: 400px;
+        height: 395px; }
+        body .wrapper .secondBlock .sb__wrapper .sb__title {
+          margin-top: 75px;
+          margin-right: 113px;
+          font-family: 'DM Serif Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 25px;
+          line-height: 39px;
+          text-align: center;
+          letter-spacing: 0.22px;
+          color: #292F36; }
+        body .wrapper .secondBlock .sb__wrapper .sb__cont {
+          width: 317px;
+          height: 99px;
+          font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 33px;
+          text-align: center;
+          letter-spacing: 0.22px;
+          color: #4D5053; }
+        body .wrapper .secondBlock .sb__wrapper .sb__footer {
+          height: 27px;
+          margin-top: 35px;
+          margin-left: 100px;
+          display: flex;
+          align-items: center;
+          font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          text-align: center;
+          letter-spacing: 0.36px;
+          color: #4D5053; }
+          body .wrapper .secondBlock .sb__wrapper .sb__footer .strelka {
+            margin-left: 5px;
+            background-image: url(../image/str.png);
+            width: 24px;
+            height: 17px;
+            background-repeat: no-repeat; }
+    body .wrapper .thirdBlock {
+      width: 1200px;
+      height: 634.61px;
+      margin-left: 120px;
+      margin-top: 100px;
+      display: flex;
+      align-items: center; }
+      body .wrapper .thirdBlock .tb__content {
+        margin-top: 35px;
+        width: 592px;
+        height: 581px; }
+        body .wrapper .thirdBlock .tb__content .cont__title {
+          width: 450px;
+          height: 130px;
+          font-family: 'DM Serif Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 50px;
+          line-height: 65px;
+          letter-spacing: 0.22px;
+          color: #292F36;
+          padding-bottom: 42px; }
+        body .wrapper .thirdBlock .tb__content .cont__itemO {
+          margin-top: 42px;
+          width: 531px;
+          height: 66px;
+          font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 33px;
+          letter-spacing: 0.22px;
+          color: #4D5053; }
+        body .wrapper .thirdBlock .tb__content .cont__itemT {
+          width: 492px;
+          height: 66px;
+          font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 33px;
+          letter-spacing: 0.22px;
+          color: #4D5053; }
+        body .wrapper .thirdBlock .tb__content .cont__number {
+          margin-top: 29.8px;
+          width: 532px;
+          height: 143px;
+          display: flex;
+          align-items: center; }
+          body .wrapper .thirdBlock .tb__content .cont__number .div-tel {
+            width: 93px;
+            height: 93px;
+            background-image: url(../image/Rectangle.jpg); }
+            body .wrapper .thirdBlock .tb__content .cont__number .div-tel .tel {
+              width: 32px;
+              height: 32px;
+              margin-top: 30px;
+              margin-left: 31px; }
+          body .wrapper .thirdBlock .tb__content .cont__number .num-wrapper {
+            display: block; }
+            body .wrapper .thirdBlock .tb__content .cont__number .num-wrapper .numberO {
+              margin-left: 20px;
+              width: 138px;
+              height: 36px;
+              font-family: 'Jost';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 36px;
+              letter-spacing: 0.22px;
+              color: #4D5053; }
+            body .wrapper .thirdBlock .tb__content .cont__number .num-wrapper .numberT {
+              margin-left: 20px;
+              width: 154px;
+              height: 33px;
+              font-family: 'Jost';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 22px;
+              line-height: 33px;
+              letter-spacing: 0.22px;
+              color: #4D5053; }
+        body .wrapper .thirdBlock .tb__content .cont__button {
+          font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          letter-spacing: 0.22px;
+          color: #FFFFFF;
+          margin-top: 10px;
+          width: 263px;
+          height: 71px;
+          padding-top: 21px;
+          padding-left: 34px;
+          background-image: url(../image/aue.png);
+          background-repeat: no-repeat;
+          cursor: pointer; }
+    body .wrapper .tb__image {
+      margin-left: 16px;
+      width: 592px;
+      height: 635px; }
+    body .wrapper .fourBlock {
+      margin-top: 140px;
+      width: 1200px;
+      height: 675px;
+      margin-left: 120px;
+      background: #F4F0EC;
+      border-radius: 70px; }
+      body .wrapper .fourBlock .fb__title1 {
+        padding-top: 103px;
+        margin-left: 361px;
+        width: 479px;
+        height: 59px;
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        /* identical to box height, or 130% */
+        text-align: center;
+        letter-spacing: 0.22px;
+        color: #292F36; }
+      body .wrapper .fourBlock .fb__title2 {
+        margin-left: 458px;
+        width: 285px;
+        height: 59px;
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        /* identical to box height, or 130% */
+        text-align: center;
+        letter-spacing: 0.22px;
+        color: #292F36; }
+      body .wrapper .fourBlock .fb__wrapper {
+        margin-top: 46px;
+        margin-left: 50px;
+        width: 1100px;
+        height: 289px;
+        display: flex;
+        align-items: center; }
+        body .wrapper .fourBlock .fb__wrapper .fb__itemT, body .wrapper .fourBlock .fb__wrapper .fb__itemTH {
+          margin-left: 18px; }
+        body .wrapper .fourBlock .fb__wrapper .fb__itemO, body .wrapper .fourBlock .fb__wrapper .fb__itemT, body .wrapper .fourBlock .fb__wrapper .fb__itemTH {
+          width: 354px;
+          height: 287px;
+          background: #FFFFFF;
+          border-radius: 30px; }
+          body .wrapper .fourBlock .fb__wrapper .fb__itemO .chel, body .wrapper .fourBlock .fb__wrapper .fb__itemT .chel, body .wrapper .fourBlock .fb__wrapper .fb__itemTH .chel {
+            margin-left: 35px;
+            width: 289px;
+            height: 77px;
+            margin-top: 50px;
+            display: flex;
+            align-items: center; }
+            body .wrapper .fourBlock .fb__wrapper .fb__itemO .chel .chel__img, body .wrapper .fourBlock .fb__wrapper .fb__itemT .chel .chel__img, body .wrapper .fourBlock .fb__wrapper .fb__itemTH .chel .chel__img {
+              width: 77px;
+              height: 77px; }
+            body .wrapper .fourBlock .fb__wrapper .fb__itemO .chel .nado, body .wrapper .fourBlock .fb__wrapper .fb__itemT .chel .nado, body .wrapper .fourBlock .fb__wrapper .fb__itemTH .chel .nado {
+              display: block;
+              margin-left: 10px; }
+              body .wrapper .fourBlock .fb__wrapper .fb__itemO .chel .nado .chel__imya, body .wrapper .fourBlock .fb__wrapper .fb__itemT .chel .nado .chel__imya, body .wrapper .fourBlock .fb__wrapper .fb__itemTH .chel .nado .chel__imya {
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 38px;
+                /* identical to box height, or 150% */
+                letter-spacing: 0.22px;
+                color: #292F36; }
+              body .wrapper .fourBlock .fb__wrapper .fb__itemO .chel .nado .chel__gorod, body .wrapper .fourBlock .fb__wrapper .fb__itemT .chel .nado .chel__gorod, body .wrapper .fourBlock .fb__wrapper .fb__itemTH .chel .nado .chel__gorod {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                /* identical to box height, or 150% */
+                letter-spacing: 0.22px;
+                color: #4D5053; }
+        body .wrapper .fourBlock .fb__wrapper .fb__cont {
+          margin-top: 25px;
+          margin-left: 35px;
+          width: 274px;
+          height: 90px;
+          font-family: 'Jost';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          /* or 150% */
+          letter-spacing: 0.22px;
+          color: #4D5053; }
+    body .wrapper .fiveBlock {
+      margin-top: 140px;
+      margin-left: 120px;
+      width: 1200px;
+      height: 103px;
+      display: flex;
+      align-items: center; }
+      body .wrapper .fiveBlock .logo1__div {
+        margin-top: 30.5px;
+        margin-left: 48px;
+        width: 132px;
+        height: 43px; }
+      body .wrapper .fiveBlock .logo2__div {
+        margin-left: 125px;
+        width: 102.5px;
+        height: 102.5px; }
+      body .wrapper .fiveBlock .logo3__div {
+        margin-top: 30.5px;
+        margin-left: 110.5px;
+        width: 164px;
+        height: 43px; }
+      body .wrapper .fiveBlock .logo4__div {
+        margin-top: 30px;
+        margin-left: 90px;
+        width: 145px;
+        height: 45px; }
+      body .wrapper .fiveBlock .logo5__div {
+        margin-top: 30px;
+        margin-left: 112px;
+        width: 117px;
+        height: 48px; }
+
+/*# sourceMappingURL=style.css.map */
